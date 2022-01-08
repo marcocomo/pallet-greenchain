@@ -1,11 +1,11 @@
 [package]
-authors = ['Marco Comotti <https://github.com/marcocomo>']
-description = 'FRAME pallet template for defining greenchain runtime logic.'
-edition = '2021'
-#homepage = 'https://substrate.dev'
+authors = ['Prasad-Kumkar <https://github.com/prasad-kumkar>']
+description = 'Basic FRAME pallet for managing identities.'
+edition = '2018'
+homepage = 'https://substrate.dev'
 license = 'Unlicense'
-name = 'greenchain-node'
-repository = 'https://github.com/substrate-developer-hub/substrate-node-template/'
+name = 'pallet-greenchain'
+repository = 'https://github.com/marcocomo/pallet-greenchain'
 version = '0.1.0'
 
 [package.metadata.docs.rs]
@@ -17,10 +17,6 @@ default-features = false
 features = ['derive']
 package = 'parity-scale-codec'
 version = '2.0.0'
-
-[dependencies.pallet-greenchain]
-default-features = false
-git = 'https://github.com/marcocomo/pallet-greenchain'
 
 [dependencies]
 frame-support = { default-features = false, version = '3.0.0' }
@@ -38,5 +34,4 @@ std = [
     'codec/std',
     'frame-support/std',
     'frame-system/std',
-    'pallet-greenchain/std'
 ]
