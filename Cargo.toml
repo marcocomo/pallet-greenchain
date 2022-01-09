@@ -80,5 +80,4 @@ std = [
     'serde/std',
     'sp-runtime/std',
     'scale-info/std',
-    'parity-utility-mem/std',
 ]
